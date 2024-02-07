@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="circulo" class="circulo"></div>
+    <label for="colores-primarios">Selecciona un color primario:</label>
+    <select id="colores-primarios" onchange="cambiarColor()">
+        <option value="#0000FF">Azul</option>
+        <option value="#FF0000">Rojo</option>
+        <option value="#00FF00">Verde</option>
+    </select>
+    <br>
+    <label>Cambia de tamaño:</label>
+    <button onclick="agrandar()">+</button>
+    <button onclick="disminuir()">-</button>
+</body>
+
+<script src="js/scripts.js"></script>
+
+</html>
