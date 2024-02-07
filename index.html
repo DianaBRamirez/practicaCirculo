@@ -9,19 +9,18 @@
 </head>
 
 <body>
-    <div id="circulo" class="circulo"></div>
-    <label for="colores-primarios">Selecciona un color primario:</label>
+    <label>Cambia de tamaño:</label>
+    <button onclick="agrandar()">+</button>
+    <button onclick="disminuir()">-</button>
+    <br>
+    <label for="colores-primarios">Selecciona un color:</label>
     <select id="colores-primarios" onchange="cambiarColor()">
         <option value="#0000FF">Azul</option>
         <option value="#FF0000">Rojo</option>
         <option value="#00FF00">Verde</option>
     </select>
     <br>
-    <label>Cambia de tamaño:</label>
-    <button onclick="agrandar()">+</button>
-    <button onclick="disminuir()">-</button>
+    <div id="circulo" class="circulo"></div>
 </body>
-
 <script src="js/scripts.js"></script>
-
 </html>
