@@ -9,10 +9,20 @@
 </head>
 
 <body>
-    <label>Cambia de tamaño:</label>
-    <button onclick="agrandar()">+</button>
-    <button onclick="disminuir()">-</button>
-    <br>
+    <label>width:</label>
+    <button onclick="agrandarWidth()">+</button>
+    <button onclick="disminuirWidth()">-</button>
+    <p></p>
+
+    <label>height:</label>
+    <button onclick="agrandarHeight()">+</button>
+    <button onclick="disminuirHeight()">-</button>
+    <p></p>
+
+    <button onclick="ocultar()">Desaparecer</button>
+    <button onclick="mostrar()">Aparecer</button>
+    <p></p>
+    
     <label for="colores-primarios">Selecciona un color:</label>
     <select id="colores-primarios" onchange="cambiarColor()">
         <option value="#0000FF">Azul</option>
@@ -23,4 +33,5 @@
     <div id="circulo" class="circulo"></div>
 </body>
 <script src="js/scripts.js"></script>
+
 </html>
